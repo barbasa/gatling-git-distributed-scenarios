@@ -12,5 +12,8 @@ out/
 ### Scala ###
 *.class
 *.log
-target
-project/target
+scenarios/target
+scenarios/project/target
+
+# Gatling results directory
+results

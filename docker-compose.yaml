@@ -1,4 +1,7 @@
 version: '3'
 services:
-  loadtest:
-    image: denvazh/gatling:3.0.3
+  load-test:
+    build: scenarios
+    volumes:
+       - ./results:/opt/gatling/results
+    #entrypoint: "/bin/bash"

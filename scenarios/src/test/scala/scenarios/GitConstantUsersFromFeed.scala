@@ -44,10 +44,10 @@ class GitConstantUsersFromFeed extends Simulation {
 
   setUp(
     replayCallsScenario.inject(
-      atOnceUsers(3)
+      atOnceUsers(5)
     ))
     .protocols(gitProtocol)
-    .maxDuration(60 seconds)
+    .maxDuration(5 minutes)
 
   after {
     try {
