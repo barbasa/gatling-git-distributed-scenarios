@@ -3,5 +3,5 @@ services:
   load-test:
     build: scenarios
     volumes:
-       - ./results:/opt/gatling/results
+       - ./results:/home/gatling/gatling-git/target/gatling/
     #entrypoint: "/bin/bash"
